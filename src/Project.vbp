@@ -1,0 +1,62 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\SYSTEM32\STDOLE2.TLB#OLE Automation
+Form=Backdrop.frm
+Form=buttons.frm
+Form=gameOptions.frm
+Form=frmMain.frm
+Form=login.frm
+Form=classicOptions.frm
+Form=scoring.frm
+Form=titleScreen.frm
+Module=generateLevels; generateLevels.bas
+Module=GraphicsFunctions; GraphicsFunctions.bas
+Module=SoundFunctions; SoundFunctions.bas
+Module=DirectDrawModule; DirectDrawModule.bas
+Module=DirectSoundModule; DirectSoundModule.bas
+Module=MainGame; MainGame.bas
+Module=Globals; Globals.bas
+Module=MiscFunctions; MiscFunctions.bas
+Module=MIDASFunctions; MIDASFunctions.bas
+Module=DefineChallengeLevels; DefineChallengeLevels.bas
+Form=intro.frm
+Form=topScores.frm
+Form=about.frm
+Form=challengeOptions.frm
+Module=versionDeclare; versionDeclare.bas
+Startup="Sub Main"
+HelpFile=""
+ExeName32="Flux.exe"
+Name="Flux"
+Title="Flux"
+VersionCompanyName="MasterWorks Software"
+MajorVer=1
+MinorVer=00
+RevisionVer=0078
+Command32 = ""
+HelpContextID = "0"
+CompatibleMode = "0"
+AutoIncrementVer = 0
+ServerSupportFiles = 0
+CompilationType = 0
+OptimizationType = 0
+FavorPentiumPro(tm) = 0
+CodeViewDebugInfo = 0
+NoAliasing = 0
+BoundsCheck = 0
+OverflowCheck = -1
+FlPointCheck = 0
+FDIVCheck = 0
+UnroundedFP = 0
+StartMode = 0
+Unattended = 0
+Retained = 0
+ThreadPerObject = 0
+MaxNumberOfThreads = 1
+
+[MS Transaction Server]
+AutoRefresh = 1
+
+[VB Decompiler]
+Build = 10.0.5630.3733
+Date = 4/25/2023
+
